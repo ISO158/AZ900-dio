@@ -55,5 +55,7 @@ c.	Maneira como gerenciamos o ambiente de nuvem e seus recursos, usando: portal 
 
 ## SLA – Service Level Agreement
 Nos diz respeito sobre o tempo de inatividade por período, conforme o acordo. Assim, é aceitável que o serviço fiquei indisponível por um determinado período de tempo, conforme a SLA. Quando maior o SLA (%) menor será o tempo de inatividade, sempre olhar para a quantidade de ‘9’.
+<img width="886" height="183" alt="image" src="https://github.com/user-attachments/assets/e8905f1f-f2cf-4076-a1f9-714dbcc194c1" />
+
  
 
