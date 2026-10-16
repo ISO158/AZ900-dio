@@ -57,5 +57,33 @@ c.	Maneira como gerenciamos o ambiente de nuvem e seus recursos, usando: portal 
 Nos diz respeito sobre o tempo de inatividade por período, conforme o acordo. Assim, é aceitável que o serviço fiquei indisponível por um determinado período de tempo, conforme a SLA. Quando maior o SLA (%) menor será o tempo de inatividade, sempre olhar para a quantidade de ‘9’.
 <img width="886" height="183" alt="image" src="https://github.com/user-attachments/assets/e8905f1f-f2cf-4076-a1f9-714dbcc194c1" />
 
+### Tipos de serviço de nuvem
+Usamos três principais que permite entender a responsabilidade compartilhada, assim como o seu uso apropriado.
+
+#### IaaS (infrastructure as a service) mais utilizado
+- São recursos/serviços onde temos mais acesso em configuração, monitoramento, backup, funcionamento adequado e acesso ao recurso final. 
+-	Configuração da máquina e manter atualizada.
+-	Tenho mais liberdade para personalizar a máquina e trabalhar ela.
+-	Há uma maior responsabilidade para configurar as infraestruturas para que as demais camadas (plataforma e software) funcionem bem.
+
+#### PaaS (platform as a service)
+-	Esse modelo é sobre os sistemas operacionais, ferramentas de desenvolvedor, gerenciamento de base de dados.
+-	Nesse modelo podemos nos manter apenas aos serviços (como a criação de um banco de dados), não focando no gerenciamento de infraestrutura.
+
+#### SaaS (software as a service)
+-	É o último nível que reflete o uso de aplicativos.
+-	Os usuários se conectam e usam o app com base em nuvem pela internet, como o email, calendários, Microsoft office 365...
+-	Seria como pagar por uma assinatura para usar o software...
+- Note que nesse último nível, a responsabilidade é bem menor, pois basicamente o usuário aqui está apenas utilizando a aplicação.
+
+Note que para um serviço local, ou seja o cliente criou toda a infraestrutura, plataforma (nuvem privada)... isso é de responsabilidade única do cliente.
+
+### Modelo de responsabilidade compartilhada
+A depender do tipo de serviço utilizado o usuário e a Microsoft podem ter responsabilidades diferentes ou compartilhadas.
+
+- IaaS -> Serviço de nuvem mais flexível, configura e gerencia o hardware para seu aplicativo.
+- PaaS -> Focado no desenvolvimento de aplicativos e gerenciamento de plataforma é realizado pelo provedor de nuvem.
+- SaaS -> Modelo de preço de pagamento conforme o uso, o usuário para pelo software que usam em um modelo de assinatura. 
+
  
 
